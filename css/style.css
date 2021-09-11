@@ -1,0 +1,282 @@
+body
+{
+    font-family: adobe-clean,'Source Sans Pro',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,'Trebuchet MS','Lucida Grande',sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    display: block;
+    background-color: #1a1a1a;
+}
+#menu-ngang
+{
+    background-color: #1a1a1a;
+    width: 100%;
+    height: 135px;
+    position:fixed;
+    overflow-y:hidden;
+    overflow-x:hidden;
+    margin-top: -150px;
+    box-shadow: 0px 10px 30px #0F0F0F;
+}
+#menu-ngang .macOSicons
+{
+    color: #e3e3e3;
+    margin: 20px 0px 0px 80px ;
+    float: left;
+    font-size: 22px;
+}
+#menu-ngang .by-vuduylong
+{
+    color: #e3e3e3;
+    float: left;
+    margin: 28px 0px 0px 10px ;
+}
+#menu-ngang .img-three-icon
+{
+    width: 160px;
+    height: auto;
+    margin: 5px 0px 0px 300px ;
+}
+#menu-ngang ul
+{
+    margin: 0;
+    padding: 0;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+#menu-ngang ul li
+{
+    list-style: none;
+    float: left;
+}
+#menu-ngang ul li a
+{
+    display: block;
+    width: 100px;
+    height: 30px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 5px;
+    color: white;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    transition: all .3s;
+}
+#menu-ngang ul li .submit-icon
+{
+    background-color: #1473e6;
+}
+#menu-ngang ul li a:hover
+{
+    background-color: #343434;
+    font-size: 16px;
+    box-shadow: 0px 0px 10px #4a4a4a;
+}
+/* #menu-ngang .box-content
+{
+    width: 444px;
+    height: 50px;
+    float: right;
+    margin: 15px 0px 0px 0px ;
+}
+#menu-ngang .box-content h4
+{
+    color: #e3e3e3;
+    float: left;
+    font-size: 14px;
+    margin: 0px 30px 0px 0px ;
+    line-height: 50px;
+}
+#menu-ngang .box-content img
+{
+    width: 30px;
+    float: left;
+    margin-top: 10px;
+} */
+#menu-ngang .search
+{
+    width: 550px;
+    height: 50px;
+    background-color: #252525;
+    margin: 0px 0px 0px 480px ;
+    border-radius: 10px;
+    border: 1px solid #4a4a4a;
+}
+#menu-ngang .search .icon-tim-kiem
+{
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin: 10px ;
+}
+#menu-ngang .search .o-tim-kiem
+{
+    width: 300px;
+    height: 25px;
+    float: left;
+    margin: 10px;
+    background-color: #252525;
+    border: 1px solid #252525;
+    color: white;
+    font-size: 16px;
+}
+#menu-ngang .search .o-select
+{
+    width: 90px;
+    height: 30px;
+    float: right;
+    margin: 10px;
+    background-color: #252525;
+    border: 1px solid #252525;
+    color: #d7d7d7;
+    font-size: 16px;
+}
+#menu-ngang .search .o-select .o-select-ben-trong
+{
+    background-color: #252525;
+}
+#main
+{
+    width: 1400px;
+    min-height: 500px;
+    margin: 150px auto;
+}
+#main #left
+{
+    border: 1px solid #383838;
+    background-color: #252525;
+    width: 220px;
+    height: 75%;
+    float: left;
+    position:fixed;
+    overflow-y:hidden;
+    overflow-x:hidden;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+#main #left ul
+{
+    margin: 10px;
+    padding: 0;
+}
+#main #left ul li
+{
+    list-style: none;
+    width: 200px;
+    height: 25px;
+    padding: 4px 0px;
+    margin: 3px 0px;
+    transition: all .3s;
+}
+#main #left ul li:hover
+{
+    background-color: #343434;
+    border-radius: 7px;
+    font-size: 18px;
+}
+#main #left ul li img
+{
+    margin: 1px 0px 0px 8px ;
+    width: 25px;
+    height: 25px;
+    float: left;
+}
+#main #left ul li a
+{
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    line-height: 25px;
+    width: 160px;
+    height: 25px;
+    float: left;
+    margin-left: 7px;
+}
+#main #left ul .gachchan
+{
+    width: 200px;
+    height: 1px;
+    background-color: #4a4a4a;
+}
+#main #right
+{
+    background-color: #1a1a1a;
+    width: 1160px;
+    margin-left: 250px;
+    float: left;
+    min-height: 1000px;
+}
+#main #right #flex-box
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+#main #right #flex-box #small-box
+{
+    width: 210px;
+    height: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    transition: all .4s;
+    border: 1px solid #383838;
+}
+#main #right #flex-box #small-box:hover
+{
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #343434;
+    border: 1px solid #6e6e6e;
+    box-shadow: 0px 0px 20px #4a4a4a;
+}
+#main #right #flex-box #small-box img
+{
+    width: 50%;
+    display: block;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all .4s;
+}
+#main #right #flex-box #small-box h2
+{
+    margin-top: 5px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+#main #right #flex-box #small-box p
+{
+    height: 15%;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+}
+#main #right #flex-box #small-box .khung-so-luot-download
+{
+    width: 51px;
+    height: 23px;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+}
+#main #right #flex-box #small-box .khung-so-luot-download .so-luot-download
+{
+    float: left;
+    width: fit-content;
+    color: white;
+    margin: 0;
+}
+#main #right #flex-box #small-box .khung-so-luot-download .icon-download
+{
+    float: left;
+    width: 20px;
+    height: 20px;
+}
